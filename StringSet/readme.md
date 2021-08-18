@@ -50,7 +50,9 @@ The class is implemented with a dynamic array and has the following private memb
 
 
 Set Operations
+
     A set cannot contain duplicate values
+    
     The `union` of two sets, R LaTeX: \cup ∪   S, is the set of values that appear in either R or S (or in both)
         e.g. {1,3,4,5} LaTeX: \cup ∪ {2,3,4,6} = {1,2,3,4,5,6}
         e.g. {cat, bat, rat, badger} LaTeX: \cup ∪ {elephant, bat, hamster} = {cat, bat, rat, badger, elephant, hamster}
