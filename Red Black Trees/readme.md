@@ -1,5 +1,6 @@
 Red Black Tree Class
-Implementation a `Red-black tree` template class to store data of any (comparable) type.
+
+Implementation of a `Red-black tree` template class to store data of any (comparable) type.
 
 
 Attributes
