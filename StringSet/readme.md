@@ -52,16 +52,16 @@ The class is implemented with a dynamic array and has the following private memb
 Set Operations
 
     A set cannot contain duplicate values
+
+    The `union` of two sets, R ∪ S, is the set of values that appear in either R or S (or in both)
+        e.g. {1,3,4,5} ∪ {2,3,4,6} = {1,2,3,4,5,6}
+        e.g. {cat, bat, rat, badger} ∪ {elephant, bat, hamster} = {cat, bat, rat, badger, elephant, hamster}
     
-    The `union` of two sets, R LaTeX: \cup ∪   S, is the set of values that appear in either R or S (or in both)
-        e.g. {1,3,4,5} LaTeX: \cup ∪ {2,3,4,6} = {1,2,3,4,5,6}
-        e.g. {cat, bat, rat, badger} LaTeX: \cup ∪ {elephant, bat, hamster} = {cat, bat, rat, badger, elephant, hamster}
-    
-    The `intersection` of two sets, R LaTeX: \cap ∩ S, is the set of values that are common to both R and S
-        e.g. {1,3,4,5} LaTeX: \cap ∩  {2,3,4} = {3,4}
-        e.g. {cat, bat, rat, badger} LaTeX: \cap ∩ {elephant, bat, hamster} = {bat}
+    The `intersection` of two sets, R ∩ S, is the set of values that are common to both R and S
+        e.g. {1,3,4,5} ∩ {2,3,4} = {3,4}
+        e.g. {cat, bat, rat, badger} ∩ {elephant, bat, hamster} = {bat}
     
     The set `difference` of two sets, R – S, is the set of values that appear in R but not in S.
-        Set difference is not commutative (i.e. A - B LaTeX: \ne ≠ B - A) 
+        Set difference is not commutative (i.e. A - B  ≠ B - A) 
         e.g. {1,3,4,5} – {2,3,4} = {1,5}
         e.g. {cat, bat, rat, badger} – {elephant, bat, hamster} = {cat, rat, badger}
