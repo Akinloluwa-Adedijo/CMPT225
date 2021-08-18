@@ -69,5 +69,7 @@ Nodes contain the following attributes, which must are all public, with names gi
 
 
 Insertion of a new node in a Red-Black Tree - `https://en.wikipedia.org/wiki/Red%E2%80%93black_tree#Insertion `
+
 Removal of a node in a Red-Black Tree - `https://en.wikipedia.org/wiki/Red%E2%80%93black_tree#Removal:_simple_cases`
+
 Red-Black Tree Visualization by David Galles, University of San Francisco Computer Science: `https://www.cs.usfca.edu/~galles/visualization/RedBlack.html`
