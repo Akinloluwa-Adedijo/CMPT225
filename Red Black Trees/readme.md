@@ -47,19 +47,20 @@ NodeT constructors written in the NodeT class definition
 
 Nodes contain the following attributes, which must are all public, with names given below:
 
-`data` - a template type parameter
-`left` - NodeT pointer to the left child
-`right` - NodeT pointer to the right child
-`parent` - NodeT pointer to the parent
-`isBlack` - the colour of the node, either black or red but represented as a bool that is true if the node is black
+    `data` - a template type parameter
+    `left` - NodeT pointer to the left child
+    `right` - NodeT pointer to the right child
+    `parent` - NodeT pointer to the parent
+    `isBlack` - the colour of the node, either black or red but represented as a bool that is true if the node is black
 
 
 
 `More About Red-Black Trees`
- Its almost like the normal binary search tree data structure. But
- for keeping the tree balanced, nodes are assigned a colour.
+
+    Its almost like the normal binary search tree data structure. But for keeping the tree balanced, nodes are assigned a colour.
 
 `Red-Black trees`  mantain the following properties:
+
     Every node is either `red` or `black`.
     The `root` is `black`.
     Every `null` node is `black`. (null nodes are the `leaf` nodes)
