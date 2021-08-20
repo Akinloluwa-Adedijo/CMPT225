@@ -1,4 +1,5 @@
 **Part 1**
+
 An Implementation of a `hash table` that stores words (strings).
 
 Hash Table Dictionary
