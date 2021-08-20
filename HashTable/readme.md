@@ -1,4 +1,4 @@
-Part 1
+**Part 1**
 An Implementation of a `hash table` that stores words (strings).
 
 Hash Table Dictionary
@@ -8,7 +8,7 @@ Collisions are handled using double hashing.
 
 
 
-Part 2 `SpellCheck`
+**Part 2**
 
     Each function in `spellcheck.h` checks to see if its input string is in a given dictionary and, 
     if not, returns an ordered list of words in the dictionary that is similar to its input, as determined by the function's process. 
